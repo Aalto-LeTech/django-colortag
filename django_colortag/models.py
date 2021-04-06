@@ -5,7 +5,7 @@ from django.utils.crypto import get_random_string
 from django.utils.functional import cached_property
 from django.utils.text import slugify
 from django.utils.translation import ugettext_lazy as _
-from colorfield.fields import ColorField
+from colorfield import ColorField
 from functools import total_ordering
 
 from .templatetags.colortag import render_as_button

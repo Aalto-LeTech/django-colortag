@@ -1,5 +1,5 @@
 Django colortag
-================
+===============
 
 Tools to help building data tagging models.
 Used for example in A+ and MOOC-Jutut projects to tag feedbacks or users with colored tags.
@@ -10,15 +10,17 @@ Installation and usage
 
 Requirements:
 
- * [Django](https://www.djangoproject.com/) 1.11+ (Django 1.9 and 1.10 are supported in versions 1.X of this project)
- * [django-html5-colorfield](https://github.com/knyghty/django-html5-colorfield) 1.0+
- * [js-jquery-toggle-django](https://github.com/Aalto-LeTech/js-jquery-toggle) for `jquery_toggle.js`
+ * [Django](https://www.djangoproject.com/) 2.2
+   (Django 1.9 and 1.10 are supported in versions 1.X of this project and Django 1.11 and 2.2 in 2.X)
+ * [django-html5-colorfield](https://github.com/knyghty/django-html5-colorfield) 2.0
+   (1.0 was used in versions before v3 of this project)
+ * [js-jquery-toggle-django](https://github.com/apluslms/js-jquery-toggle) for `jquery_toggle.js`
  * (recommended) [raphendyr-django-essentials](https://github.com/raphendyr/raphendyr-django-essentials) for app dependency management
 
 Add stuff to `requirements.txt`:
 
 ```
-git+https://github.com/Aalto-LeTech/django-colortag.git@2.0.0#egg=django-colortag==2.0.0
+git+https://github.com/apluslms/django-colortag.git@2.2.0#egg=django-colortag==2.2.0
 ```
 
 Install them with `pip install --process-dependency-links -r requirements.txt`
